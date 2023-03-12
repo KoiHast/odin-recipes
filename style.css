@@ -1,0 +1,39 @@
+html {
+  height: 100vh;
+  background-image: url(recipes/recipe-images/moroccan-flower.png);
+}
+
+body {
+  height: 100%;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+h1 {
+  font-size: 40px;
+  background-color: orangered;
+  padding: 10px 20px;
+  border: 3px double brown;
+  border-radius: 25px;
+}
+
+.links {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button {
+  list-style: none;
+  font-size: 24px;
+  background-color: orangered;
+  border: 3px double brown;
+  border-radius: 25px;
+  padding: 10px 20px;
+}
