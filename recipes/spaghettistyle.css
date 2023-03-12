@@ -1,0 +1,22 @@
+html {
+  background-image: url(recipe-images/moroccan-flower.png);
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+img {
+  border: 3px double brown;
+  display: block;
+  margin: 0 auto;
+}
+
+h2,
+h3,
+ol,
+ul,
+p {
+  margin: 20px 56px;
+}
