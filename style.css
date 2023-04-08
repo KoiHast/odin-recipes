@@ -1,3 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100;200;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 html {
   height: 100vh;
   background-image: url(recipes/recipe-images/moroccan-flower.png);
@@ -5,35 +13,62 @@ html {
 
 body {
   height: 100%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
 }
 
 main {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
+}
+
+div.header {
+  display: block;
+  width: 100%;
+  background-image: linear-gradient(to bottom right, grey, white);
+  padding: 10px 20px;
+  border-bottom: 3px double black;
+  border-top: 3px double black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 h1 {
   font-size: 40px;
-  background-color: orangered;
-  padding: 10px 20px;
-  border: 3px double brown;
-  border-radius: 25px;
+  font-family: "Bebas Neue", cursive;
+}
+
+img {
+  border: 3px double black;
+  width: 70%;
+  max-width: 1025px;
 }
 
 .links {
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+a {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
 }
 
 button {
   list-style: none;
+  width: 100%;
   font-size: 24px;
-  background-color: orangered;
-  border: 3px double brown;
-  border-radius: 25px;
+  background-image: linear-gradient(to bottom right, grey, white);
+  border: 3px double black;
   padding: 10px 20px;
 }
