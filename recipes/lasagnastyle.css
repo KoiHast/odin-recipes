@@ -1,5 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100;200;600&display=swap");
+
 html {
   background-image: url(recipe-images/moroccan-flower.png);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
 }
 
 h1 {
@@ -7,10 +17,33 @@ h1 {
   font-size: 40px;
 }
 
+h1,
+h2,
+h3 {
+  font-family: "Bebas Neue", cursive;
+}
+
 img {
   border: 3px double brown;
   display: block;
   margin: 0 auto;
+  width: 90%;
+  max-width: 1200px;
+}
+
+p,
+ol,
+ul {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  max-width: 1200px;
+  width: 100%;
+}
+
+h2,
+h3 {
+  width: 100%;
+  max-width: 1200px;
 }
 
 h2,
